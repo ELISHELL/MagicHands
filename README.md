@@ -1,7 +1,7 @@
 ###### ps:此图片来自网络请勿商用 
 <img src="👻/ico.png" alt="Image" width="400" height="300" > 
 
-# 开源万岁,免费永存！
+# 莫愁前路无知己,天下谁人不识君.
 
 # [集成开发环境](https://github.com/5tiaowu/MagicHands-IDE) 配合食用效果更佳！
 
@@ -20,7 +20,7 @@ MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root�
 
 ## 作者的碎碎念
 
-现在能正常运行但是可能有些bug，欢迎提交问题,本人大二有时间修复。
+中二男孩
 
 
 ## 找我
