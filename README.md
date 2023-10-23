@@ -142,4 +142,4 @@ function getBitmap(){
 > AGPL-3.0 license
 > ```
 
->Copyright (c) 2023 pingan
+>Copyright (c) 2023 fan
