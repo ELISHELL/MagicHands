@@ -11,7 +11,7 @@
 >
 > <p align="right">——David Emery</p>
 
-MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root运行自动化脚本，使用js编写，可以编写nodejs,python,java插件来扩展功能。
+MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root运行自动化脚本，使用js编写。
 
 ![](https://img.shields.io/badge/language-java-brightgreen.svg)
 
