@@ -122,7 +122,7 @@ function getBitmap(){
 
 ```
 
-更多其他操作看在线文档:[api.js](https://pingaa.gitee.io/magichands)【在线文档暂不太完善】
+更多其他操作看:[在线文档](https://pingaa.gitee.io/magichands)
 
 
 
