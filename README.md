@@ -1,5 +1,5 @@
 ###### 千万注意:本库目前基于AGPL-3.0协议,请注意如果您使用了此库的任何代码,都要保证您的源码完全开源,否则后果您懂得.
-<img src="👻/ico.png" alt="Image" width="400" height="300" > 
+<img src="👻/ico.png" alt="Image" width="500" height="300" > 
 
 # 莫愁前路无知己,天下谁人不识君.
 
