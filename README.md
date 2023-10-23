@@ -1,11 +1,9 @@
-###### ps:此图片来自网络请勿商用 
+###### ps:本库目前基于AGPL-3.0协议,请注意如果您使用此库的任何代码,都要保证您的源码完全开源,否则后果您懂得.
 <img src="👻/ico.png" alt="Image" width="400" height="300" > 
 
 # 莫愁前路无知己,天下谁人不识君.
 
-# [集成开发环境](https://github.com/5tiaowu/MagicHands-IDE) 配合食用效果更佳！
-
-### 声明：本库允许学习食用,允许食用者利用此库制作收费脚本,但不允许在此库基础上套壳变成收费框架!
+### 声明：本库允许学习使用,允许使用者利用此库制作收费脚本,但不允许在此库基础上套壳变成收费框架!
 
 # Android自动化引擎 · MagicHands
 
@@ -13,14 +11,14 @@
 >
 > <p align="right">——David Emery</p>
 
-MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root运行自动化脚本，使用js编写，可以编写插件来扩展功能。
+MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root运行自动化脚本，使用js编写，可以编写nodejs,python,java插件来扩展功能。
 
 ![](https://img.shields.io/badge/language-java-brightgreen.svg)
 
 
 ## 作者的碎碎念
 
-中二男孩
+喜欢开源,这让我很舒服,就和一个上帝一样,创造出自己喜欢的东西.
 
 
 ## 找我
@@ -28,8 +26,6 @@ MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root�
 - Q群:710985269
 - QQ:3560000009
 - Wx:php787 
-- Tg:chenpingan_fjc
-欢迎找我聊骚,以及建议和bug反馈【有求必应】
 
 ## 支持
 
@@ -37,11 +33,11 @@ MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root�
 
 ## 如何使用
 
-[点我看视频教程](https://www.bilibili.com/video/BV1Ao4y1E7NK/?share_source=copy_web&vd_source=2f8cb1fac706b3fcfd90ed86023a3c7c)
+[点我看视频教程](https://www.bilibili.com/video/BV14h4y1y7YK/?spm_id_from=333.999.0.0)
 
 ### Step 1.初始化：
 
-参考demo的MainActivity的初始化工作流程
+参考示例中的MainActivity的初始化工作流程
 
 ### Step 2.编写Js代码并运行：
 
@@ -59,8 +55,6 @@ MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root�
 @参数 node - 节点对象
 @返回值 成功:文本内容 失败:null
 @功能 获取给定节点的文本内容
-@介绍 本方法为免费方法由官方开发维护
-@版本 1 正常
 */
 function getText(node) {
     return js.getText(node);
@@ -74,8 +68,6 @@ function getText(node) {
 @参数 node - 节点对象
 @返回值 成功:true 失败:false
 @功能 尝试点击目标节点,当传入节点无法节点会依次向上层节点进行点击尝试
-@介绍 本方法为免费方法由官方开发维护
-@版本 1 正常
 */
 function tryClick(node){
     return js.tryClick(node)
@@ -89,8 +81,6 @@ function tryClick(node){
 @参数 node - 节点
 @返回值 成功:节点信息 失败:null
 @功能 获取当前节点的父亲节点
-@介绍 本方法为免费方法由官方开发维护
-@版本 1 正常
 */
 function getParentNode(node){
     return js.getParentNode(node)
@@ -104,8 +94,6 @@ function getParentNode(node){
 @参数 b - Bit对象 @参数 x - x坐标 @参数 y - y坐标
 @返回值 成功:rgb字符串 失败:null
 @功能 获取指定坐标点的rgb字符串
-@介绍 本方法为免费方法由官方开发维护
-@版本 1 正常
 */
 function getRgb(b,x,y){
     return js.getRgb(b,x,y)
@@ -116,8 +104,6 @@ function getRgb(b,x,y){
 @权限 常规权限
 @函数名 setUpVirtualDisplay
 @功能 捕获当前界面
-@介绍 本方法为免费方法由官方开发维护
-@版本 1 正常
 */
 function setUpVirtualDisplay(){
      js.setUpVirtualDisplay()
@@ -129,8 +115,6 @@ function setUpVirtualDisplay(){
 @函数名 getBitmap
 @返回值 成功:bit对象 失败:null
 @功能 获取捕获的bit对象
-@介绍 本方法为免费方法由官方开发维护
-@版本 1 正常
 */
 function getBitmap(){
     return js.getBitmap()
@@ -138,17 +122,13 @@ function getBitmap(){
 
 ```
 
-更多其他操作看在线文档:[api.js](https://magichands.gitbook.io/api-docs-1/android/jie-shao)【在线文档暂不太完善,请先参考本地接口文档】
+更多其他操作看在线文档:[api.js](https://pingaa.gitee.io/magichands)【在线文档暂不太完善】
 
 
 
 ## 计划
 
- - opencv实现图色识别
- - 将要实现自动化的app加载到我们app中实现同一个进程的自动化
- - 利用蓝牙hid协议实现自动化
- - 利用android的adb提权原理实现免插数据线实现adb自动化
- - 脚手架工具:创建项目,打包项目,打包插件,调试代码,调试局部代码,远程调试,节点查看...
+ - 寄生模式(虚拟化)
 
 ## 感谢
 
