@@ -129,6 +129,7 @@ function getBitmap(){
 ## 计划
 
  - 寄生模式(虚拟化)
+ - nodejs or v8引擎
 
 ## 感谢
 
