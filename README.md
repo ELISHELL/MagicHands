@@ -16,9 +16,9 @@ MagicHands，是一款自动化测试引擎，可以在Android7.0以上免root�
 ![](https://img.shields.io/badge/language-java-brightgreen.svg)
 
 
-## 作者的碎碎念
+## 碎碎念
 
-喜欢开源,这让我很舒服,就和一个上帝一样,创造出自己喜欢的东西.
+开源让我觉着和上帝一样,创造出自己喜欢的东西.
 
 
 ## 找我
