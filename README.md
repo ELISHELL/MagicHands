@@ -126,7 +126,7 @@ function getBitmap(){
 
 ## 如何参与开发？
 
-- [用户的一些诉求,可以帮忙修复](https://chinese.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/)
+- [用户的一些诉求, 有空可以帮忙修复](https://docs.qq.com/smartsheet/DVUxWaUhuc2l0UGF4?tab=BB08J2&viewId=vUQPXH)
 
 ### 应用分2个模块
 - app模块，用户操作与UI模块
