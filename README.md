@@ -124,6 +124,24 @@ function getBitmap(){
 
 更多其他操作看:[在线文档](https://pingaa.gitee.io/magichands)
 
+## 如何参与开发？
+
+- [用户的一些诉求,可以帮忙修复](https://chinese.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/)
+
+### 应用分2个模块
+- app模块，用户操作与UI模块
+- core模块，此模块为MagicHands的核心模块，负责完成整个Mh的调度。
+
+如需要参与开发请直接pr就可以了，相关教程请百度或者看 [如何在 GitHub 提交第一个 pull request](https://chinese.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/)
+
+### PR须知
+1. 中英文说明都可以，但是一定要详细说明问题
+2. 请遵从原项目的代码风格、设计模式，请勿个性化。
+3. PR不分大小，有问题随时欢迎提交。
+
+
+## 一些额外的话
+本人精力有限,所以辛苦大家多多参与PR
 
 
 ## 计划
