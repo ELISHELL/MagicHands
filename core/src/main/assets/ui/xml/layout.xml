@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:tag="1"
+    >
+        <LinearLayout android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:tag="2"
+        >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下拉框111: "/>
+            <Spinner
+                android:id="sm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="1,2,3" />
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:tag="2"
+        >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名: "/>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="name"
+                android:hint="请输入姓名"
+                android:id="t1"
+            />
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:tag="2"
+        >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="性别: "/>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="name"
+                android:hint="请输入性别"
+                android:id="t2"
+            />
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:tag="3"
+            >
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:tag="2"
+        >
+            <Button
+                android:layout_width="wrap_content"
+                android:id="t1"
+                android:text="授权"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="t2"
+                android:layout_width="wrap_content"
+                android:text="启动"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="t3"
+                android:layout_width="wrap_content"
+                android:text="停"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

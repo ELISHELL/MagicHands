@@ -1,0 +1,1 @@
+System.register(["./index-legacy-50a8a601.js","./index-legacy-3de991fb.js"],(function(e,n){"use strict";var t;return{setters:[e=>{t=e.W},null],execute:function(){e("InterActiveWeb",class extends t{async canOpenUrl(e){return{value:!0}}})}}}));
